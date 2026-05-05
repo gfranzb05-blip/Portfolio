@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franz Berja — Personal Site</title>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════ HEADER ══════════════ -->
+<header>
+    <a href="#" class="logo"><span class="red">&lt;/</span>franz<span class="red">&gt;</span></a>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+</header>
+
+<!-- ══════════════ MAIN ══════════════ -->
+<main>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-left">
+            <div class="hero-tag">Available for work</div>
+            <h1>Hello, I'm <em>Franz</em><br>Web Developer.</h1>
+            <p>I build clean, fast, and beautiful websites using HTML and CSS. Currently learning and leveling up my skills every day.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-ghost">Get in Touch</a>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="code-card">
+                <div class="card-header">
+                    <span class="dot dot-r"></span>
+                    <span class="dot dot-y"></span>
+                    <span class="dot dot-g"></span>
+                    <span class="card-title">about-me.js</span>
+                </div>
+                <div class="line"><span class="ln">1</span><span><span class="kw">const</span> <span class="fn">Franz</span> = {</span></div>
+                <div class="line"><span class="ln">2</span><span>&nbsp;&nbsp;name: <span class="st">"Franz Berja"</span>,</span></div>
+                <div class="line"><span class="ln">3</span><span>&nbsp;&nbsp;age: <span class="nr">23</span>,</span></div>
+                <div class="line"><span class="ln">4</span><span>&nbsp;&nbsp;role: <span class="st">"Web Developer"</span>,</span></div>
+                <div class="line"><span class="ln">5</span><span>&nbsp;&nbsp;skills: [<span class="st">"HTML"</span>, <span class="st">"CSS"</span>],</span></div>
+                <div class="line"><span class="ln">6</span><span>&nbsp;&nbsp;available: <span class="kw">true</span></span></div>
+                <div class="line"><span class="ln">7</span><span>}</span></div>
+            </div>
+
+            <div class="stats-row">
+                <div class="stat-box">
+                    <span class="stat-num">23</span>
+                    <span class="stat-lbl">Years Old</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">10+</span>
+                    <span class="stat-lbl">Projects</span>
+                </div>
+                <div class="stat-box">
+                    <span class="stat-num">∞</span>
+                    <span class="stat-lbl">Learning</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+        <div class="section-label">About Me</div>
+        <div class="about-grid">
+            <div>
+                <h2>Who am I?</h2>
+                <p>I'm Franz, a 23-year-old web developer from the Philippines who is passionate about building things on the web.</p>
+                <p>I started learning HTML and CSS and fell in love with the idea of creating something from nothing — just code and a browser.</p>
+                <p>When I'm not coding, I'm on CSS Battle sharpening my skills or exploring new design ideas.</p>
+            </div>
+            <div>
+                <div class="skills-list">
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">HTML</span><span class="skill-pct">90%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">CSS</span><span class="skill-pct">75%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">CSS Battle</span><span class="skill-pct">Growing 🔥</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:60%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-top"><span class="skill-name">Design Eye</span><span class="skill-pct">85%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- PROJECTS -->
+    <section class="projects" id="projects">
+        <div class="section-label">My Projects</div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <span class="project-icon">🎂</span>
+                <h3>Birthday Page</h3>
+                <p>A personal birthday celebration page with animations, gift box hover effects, and a reaction GIF.</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <span class="project-icon">🔍</span>
+                <h3>Google Clone</h3>
+                <p>Recreated the Google homepage layout to practice flexbox, positioning, and custom fonts.</p>
+                <div class="project-tags">
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Fonts</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <span class="project-icon">⚔️</span>
+                <h3>CSS Battle</h3>
+                <p>Daily CSS challenges — recreating pixel-perfect shapes using minimal code.</p>
+                <div class="project-tags">
+                    <span class="tag">CSS</span>
+                    <span class="tag">Position</span>
+                    <span class="tag">Border-radius</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <div class="section-label" style="justify-content:center; margin-bottom:24px;">Contact</div>
+        <h2>Let's work<br><em style="color:var(--accent);font-style:normal;">together.</em></h2>
+        <p>Have a project in mind? Feel free to reach out!</p>
+        <div class="contact-links">
+            <a href="mailto:franz@email.com" class="contact-link">📧 Email Me</a>
+            <a href="#" class="contact-link">💼 LinkedIn</a>
+            <a href="#" class="contact-link">🐙 GitHub</a>
+            <a href="#" class="contact-link">🎮 CSS Battle</a>
+        </div>
+    </section>
+
+</main>
+
+<!-- ══════════════ FOOTER ══════════════ -->
+<footer>
+    <div class="footer-left">
+        © 2026 <span>Franz Berja</span> — Built with HTML & CSS
+    </div>
+    <div class="footer-right">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</footer>
+
+</body>
+</html>
