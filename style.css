@@ -316,9 +316,9 @@
         }
 
         /* SKILLS */
-        .skills-list { display: flex; flex-direction: column; gap: 14px; }
+        .skills-list { display: flex; flex-direction: column; gap: 22px; }
 
-        .skill-row { display: flex; flex-direction: column; gap: 6px; }
+        .skill-row { display: flex; flex-direction: column; gap: 14px; }
 
         .skill-top {
             display: flex;
